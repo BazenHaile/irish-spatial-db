@@ -1,0 +1,4 @@
+*.gpkg
+*.zip
+*.gdb
+.DS_Store
