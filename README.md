@@ -25,7 +25,15 @@ A PostGIS spatial database project using Irish authoritative open data from data
 - Munster has the highest average townlands per county (2,813) driven by large rural counties
 - Ulster shows only 3 counties — the dataset covers the Republic of Ireland only
 
+## View the Map
+GitHub's renderer does not support complex Irish coastal boundaries.
+View the interactive county map here:
+[Open in geojson.io](https://geojson.io/#data=data:text/x-url,https://raw.githubusercontent.com/BazenHaile/irish-spatial-db/main/data/counties.geojson)
+
 ## Repository Structure
 - `sql/phase1_queries.sql` — All PostGIS queries used in this project
 - `data/county_townland_counts.csv` — County rankings by townland count and area
-- `data/counties.geojson` — County boundaries (renders as a live map on GitHub)
+- `data/counties.geojson` — County boundaries (26 counties, EPSG:4326)
+
+## Tools
+PostgreSQL · PostGIS · QGIS · ogr2ogr · macOS
